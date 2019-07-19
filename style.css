@@ -1,0 +1,93 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    font-size:100%;
+} /*font formatting*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap');
+/*
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+*/
+
+header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding:5% 5% 20% 5%;
+    text-align:center;
+}
+.logo{
+    width:140px;
+    align-self:center;
+}
+@media screen and (min-width:1000px) {
+    .logo{
+        width:200px;
+        
+    }
+}
+.button1{
+    padding:5px;
+    align-self:center;
+    page-break-after:always;
+
+}
+@media screen and (min-width:1000px) {
+    .button1{
+        width:140px;
+    
+    }
+}
+header h1{
+    margin:90px auto 30px auto;
+    font-size:2em;
+    page-break-after:always;
+}
+@media screen and (min-width:1000px) {
+    header h1{
+        font-size:2.4em;
+        margin:150px auto 20px auto;
+        page-break-after:always;
+    }
+}
+
+header p{
+    font-size:1.4em;
+    text-align:center;
+    margin:0 auto 0 auto;
+    page-break-after:always;
+}
+@media screen and (min-width:1000px) {
+header p{
+    width:800px;
+    font-size:1.4em;
+    text-align:center;
+    margin:0 auto 0 auto;
+    page-break-after:always;
+}
+}
+.button2{
+    display:none;
+}
+@media screen and (min-width:1000px) {
+    .button2{
+    display:block;
+    margin: 40px auto 0 auto;
+    page-break-after:always;
+    width:350px;
+    height:80px;
+    font-size:18px;
+}
+}
+.mockups{
+    flex-basis:1000px;
+    margin:70px auto 0 auto;
+}
