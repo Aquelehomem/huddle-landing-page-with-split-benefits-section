@@ -16,7 +16,12 @@ html,body{
     font-family: 'Open Sans', sans-serif;
 
 */
-
+h1,h2,h3{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 header{
     display:flex;
     flex-wrap:wrap;
@@ -38,6 +43,12 @@ header{
     padding:5px;
     align-self:center;
     page-break-after:always;
+    border-style:solid;
+    color:hsl(322, 100%, 66%);
+    border-color:hsl(322, 100%, 66%);
+    border-radius:5px;
+    border-width: 2px;
+    background-color:transparent;
 
 }
 @media screen and (min-width:1000px) {
@@ -64,6 +75,7 @@ header p{
     text-align:center;
     margin:0 auto 0 auto;
     page-break-after:always;
+    color:hsl(208, 11%, 55%);
 }
 @media screen and (min-width:1000px) {
 header p{
@@ -85,6 +97,11 @@ header p{
     width:350px;
     height:80px;
     font-size:18px;
+    color:white;
+    border-radius:10px;
+    border-style:none;
+    background-color:hsl(322, 100%, 66%);
+    font-weight: bold;
 }
 }
 .mockups{
@@ -102,7 +119,7 @@ main{
 }
 @media screen and (min-width:1000px) {
     main{
-        padding:15% 5% 0% 5%;
+        padding:10% 5% 0% 5%;
         display:flex;
         flex-wrap:wrap;
         align-self:center;
@@ -119,7 +136,7 @@ main img{
     main img{
         width:410px;
         flex-shrink:1;
-        flex-basis:420px;
+        flex-basis:412px;
         align-self:flex-start;
         align-items: flex-end;
         order:2;
@@ -127,11 +144,20 @@ main img{
         page-break-after:always;
     }
 }
+@media screen and (min-width:1100px) {
+    main img{
+        flex-basis:523px;
+        
+    }
+}
 main h3{
     margin-bottom:25px;
+    font-size:1.5em;
 }
 main p{
     margin-bottom:40px;
+    color:hsl(208, 11%, 55%);
+    font-size:1.2em;
 }
 main .div1{
     padding:0 0 15% 0;
@@ -158,6 +184,7 @@ main .div2{
 }
 main .div2 h2{
     text-align:center;
+    font-size:2.5em;
 }
 main .div2 button{
     margin:40px auto 0 auto;
@@ -169,6 +196,11 @@ main .div2 button{
     main .div2 button{
         width:340px;
         height:75px;
+        color:white;
+        border-radius:10px;
+        border-style:none;
+        background-color:hsl(322, 100%, 66%);
+        font-weight: bold;
     }
 }
 /*footer*/
@@ -226,11 +258,13 @@ footer div:nth-child(1) #logo {
 footer div:nth-child(1) p {
     width:80%;
     margin-bottom:25px;
+    
 }
 @media screen and (min-width:1000px) {
     footer div:nth-child(1) p {
         width:320px;
         margin-bottom:25px;
+        line-height:1.5;
     }   
 }
 footer div:nth-child(1) .img {
@@ -309,6 +343,9 @@ footer div:nth-child(4) button{
     float:left;
     height:50px;
     width:51px;
+    background-color:hsl(322, 100%, 66%);
+    border-style:none;
+    border-radius:3px;
 } 
 @media screen and (min-width:1000px) {
     footer div:nth-child(4) input{
