@@ -191,6 +191,11 @@ main .div2 button{
     display: block;
     width:240px;
     height:60px;
+    color:white;
+    border-radius:10px;
+    border-style:none;
+    background-color:hsl(322, 100%, 66%);
+    font-weight: bold;
 }
 @media screen and (min-width:1000px) {
     main .div2 button{
